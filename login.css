@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(./Images/food_doodle_detail.webp);
+    background-size: contain;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+    width: 450px;
+    height: 500px;
+    padding: 20px;
+    background-image: url(./Images/doodle.avif);
+    border-radius: 25px;
+    border: 2px solid rgb(19, 149, 205);
+}
+
+form{
+    color: rgb(0, 0, 0) !important;
+}
+
+.form-floating{
+    color: black !important;
+    margin: 10px;
+}
